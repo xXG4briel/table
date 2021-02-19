@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;600;700&display=swap');
+* { 
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Heebo',sans-serif;
+}
+
+thead > tr > th{
+    color: #b700ff;
+}
+table {
+    margin-left: 30px;
+    width: 85vw;
+    border-collapse: separate;
+    border-spacing: 1px;
+    border: 0;
+}
+td{
+    text-align:center;
+    min-width: 60px;
+    padding: 8px;
+}
+td > h8 {
+        color: #9567ff;
+}
+.weight{ font-weight: 600;  }
+
+@media(max-width:600px){
+        .icon {
+            display: flex;
+            justify-content:space-around;
+            width:80vw
+        }
+        table { margin: auto; border: 0px;}
+        thead{
+            display:none;
+        }
+        tr{
+            display:flex;
+            width: 70%;
+            flex-wrap:wrap;
+            justify-content:center;
+            border-radius: 8px;
+            border: 1px solid black;
+            margin:20px auto;
+        }}
